@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28922.388
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SnakeWin", "SnakeWin\SnakeWin.vcxproj", "{6D308D65-4937-47C5-9AAB-E540A379C022}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6D308D65-4937-47C5-9AAB-E540A379C022}.Debug|x64.ActiveCfg = Debug|x64
+		{6D308D65-4937-47C5-9AAB-E540A379C022}.Debug|x64.Build.0 = Debug|x64
+		{6D308D65-4937-47C5-9AAB-E540A379C022}.Debug|x86.ActiveCfg = Debug|Win32
+		{6D308D65-4937-47C5-9AAB-E540A379C022}.Debug|x86.Build.0 = Debug|Win32
+		{6D308D65-4937-47C5-9AAB-E540A379C022}.Release|x64.ActiveCfg = Release|x64
+		{6D308D65-4937-47C5-9AAB-E540A379C022}.Release|x64.Build.0 = Release|x64
+		{6D308D65-4937-47C5-9AAB-E540A379C022}.Release|x86.ActiveCfg = Release|Win32
+		{6D308D65-4937-47C5-9AAB-E540A379C022}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D7AF0948-ED79-41A0-A72D-94DBBBB7724D}
+	EndGlobalSection
+EndGlobal
