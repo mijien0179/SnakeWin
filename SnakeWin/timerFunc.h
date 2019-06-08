@@ -2,6 +2,7 @@
 #include "data.h"
 #include <Windows.h>
 
+
 #ifndef __TIMER_FUNCTION_H__
 #define __TIMER_FUNCTION_H__
 
@@ -10,5 +11,7 @@
 
 // Calculate Function
 void CALLBACK Snake_CalculateFunction CALLBACK_PARAM;
+void Snake_NewFood();
+
 
 #endif

@@ -3,6 +3,7 @@
 #include "InputFunc.h"
 
 #include <Windows.h>
+#include <time.h>
 #pragma once
 
 #ifndef __PROC_FUNCTION_H__

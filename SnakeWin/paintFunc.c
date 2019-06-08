@@ -48,8 +48,16 @@ void PaintGame PAINT_PARAMETER
 
 	Rectangle(hdc, startX + SnakeBD[0].x * singleSize, startY + SnakeBD[0].y * singleSize,
 		startX + (SnakeBD[0].x + 1) * singleSize, startY + (SnakeBD[0].y + 1) * singleSize);
+
+	SelectObject(hdc, CreateSolidBrush(RGB(255, 0, 0)));
+
+	Rectangle(hdc, startX + FoodPosition.x * singleSize, startY + FoodPosition.y * singleSize,
+		startX + (FoodPosition.x + 1) * singleSize, startY + (FoodPosition.y + 1) * singleSize);
 	
-	SelectObject(hdc, oldPen);
+	oldPen = SelectObject(hdc, oldPen);
+
+	DeleteObject(oldPen);
+
 }
 
 void PaintGameEnd PAINT_PARAMETER

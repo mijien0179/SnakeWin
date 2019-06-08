@@ -26,13 +26,35 @@ void Keydown_Before PARAMETER
 
 void Keydown_Game PARAMETER
 {
-	switch (wParam) {
-	case VK_UP:
-	case VK_DOWN:
-	case VK_LEFT:
-	case VK_RIGHT:
-		SnakeDirection = wParam;
-		break;
+	if (SnakeDirection == VK_UP) {
+		switch (wParam) {
+		case VK_LEFT:
+		case VK_RIGHT:
+			SnakeDirection = wParam;
+			break;
+		}
 	}
-	RECT rect;
+	else if (SnakeDirection == VK_DOWN) {
+		switch (wParam) {
+		case VK_LEFT:
+		case VK_RIGHT:
+			SnakeDirection = wParam;
+			break;
+		}
+	}
+	else if (SnakeDirection == VK_LEFT) {
+		switch (wParam) {
+		case VK_UP:
+		case VK_DOWN:
+			SnakeDirection = wParam;
+			break;
+		}
+	}else if (SnakeDirection == VK_RIGHT) {
+		switch (wParam) {
+		case VK_UP:
+		case VK_DOWN:
+			SnakeDirection = wParam;
+			break;
+		}
+	}
 }

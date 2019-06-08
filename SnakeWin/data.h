@@ -36,6 +36,7 @@ struct Point {
 };
 
 typedef struct Point SnakeBody;
+typedef struct Point Food;
 
 extern int SnakeDirection;
 extern const int RefreshTime;
@@ -48,6 +49,8 @@ extern SGS Game_State;
 
 extern const int MapPadding;
 extern int SnakeBodySize;
+
+extern Food FoodPosition;
 
 extern SnakeBody SnakeBD[SNAKE_BODY_SIZE];
 

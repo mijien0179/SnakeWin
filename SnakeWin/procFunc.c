@@ -41,7 +41,10 @@ void Snake_KeyDownFunction PARAMETER
 
 void Snake_CreateInitFunction PARAMETER
 {
+	srand((unsigned int)time(NULL));
 	Game_State = SGS_BEFORE;
+
+	Snake_NewFood();
 
 	for (int i = 0; i < sizeof(SnakeBD) / sizeof(SnakeBody); ++i) {
 		SnakeBD[i].x = SnakeBD[i].y = -1;

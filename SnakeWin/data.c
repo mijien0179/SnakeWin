@@ -13,3 +13,5 @@ const int MapPadding = 5;
 int SnakeBodySize;
 
 SnakeBody SnakeBD[SNAKE_BODY_SIZE];
+
+Food FoodPosition;
