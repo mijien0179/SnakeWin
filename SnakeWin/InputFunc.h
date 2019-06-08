@@ -15,6 +15,7 @@ extern const int sKeydownEventList;
 
 void Keydown_Before PARAMETER;
 void Keydown_Game PARAMETER;
-
+void Keydown_Ended PARAMETER;
+void Snake_GameInit();
 
 #endif

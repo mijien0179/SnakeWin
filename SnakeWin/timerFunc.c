@@ -7,6 +7,7 @@ void CALLBACK Snake_CalculateFunction CALLBACK_PARAM
 	}
 
 	SnakeBody * p = SnakeBD;
+	SnakeDirection = SnakeNextDirection;
 	switch (SnakeDirection) {
 	case VK_UP:
 		p->y -= 1;

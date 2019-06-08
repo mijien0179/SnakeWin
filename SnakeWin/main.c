@@ -1,8 +1,6 @@
 #include "procFunc.h"
 #include <stdio.h>
 
-
-
 LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam){
 	if (WM_DESTROY == message) {
 		PostQuitMessage(0);

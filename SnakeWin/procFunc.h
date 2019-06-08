@@ -24,5 +24,6 @@ extern const sProcEventList;
 #pragma endregion
 
 void Snake_CreateInitFunction PARAMETER;
+void Snake_GameInit();
 
 #endif

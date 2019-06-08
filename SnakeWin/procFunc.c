@@ -42,6 +42,12 @@ void Snake_KeyDownFunction PARAMETER
 void Snake_CreateInitFunction PARAMETER
 {
 	srand((unsigned int)time(NULL));
+	Snake_GameInit();
+}
+
+
+void Snake_GameInit()
+{
 	Game_State = SGS_BEFORE;
 
 	Snake_NewFood();
@@ -50,6 +56,6 @@ void Snake_CreateInitFunction PARAMETER
 		SnakeBD[i].x = SnakeBD[i].y = -1;
 	}
 
-	SnakeBodySize = 5;
+	SnakeBodySize = 15;
 
 }

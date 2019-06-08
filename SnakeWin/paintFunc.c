@@ -68,7 +68,7 @@ void PaintGameEnd PAINT_PARAMETER
 	width = rect.right - rect.left;
 	height = rect.bottom - rect.top;
 	SetTextAlign(hdc, TA_CENTER);
-	char* str = "GameOver";
+	char* str = "GameOver. If You want to retry, Press R";
 
 	TextOut(hdc, width / 2, height/2, str, strlen(str));
 }
